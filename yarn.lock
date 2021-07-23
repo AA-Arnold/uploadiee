@@ -3468,14 +3468,9 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001020, caniuse-lite@^1.0.30001035:
-  version "1.0.30001035"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001035.tgz#2bb53b8aa4716b2ed08e088d4dc816a5fe089a1e"
-  integrity sha512-C1ZxgkuA4/bUEdMbU5WrGY4+UhMFFiXrgNAfxiMIqWgFTWfv/xsZCS2xEHT2LMq7xAZfuAnu6mcqyDl0ZR6wLQ==
-
-caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001219:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001020, caniuse-lite@^1.0.30001035, caniuse-lite@^1.0.30001125, caniuse-lite@^1.0.30001219:
   version "1.0.30001246"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001246.tgz#fe17d9919f87124d6bb416ef7b325356d69dc76c"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001246.tgz"
   integrity sha512-Tc+ff0Co/nFNbLOrziBXmMVtpt9S2c2Y+Z9Nk9Khj09J+0zR9ejvIW5qkZAErCbOrVODCx/MN+GpB5FNBs5GFA==
 
 capture-exit@^2.0.0:
@@ -3633,6 +3628,19 @@ cliui@^6.0.0:
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
     wrap-ansi "^6.2.0"
+
+cloudinary-core@^2.11.3:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.11.4.tgz#1d191935bcdcd412d499a91b928a94b266fee49d"
+  integrity sha512-F1BZczD6f5mB73D0c8gl/iuacVQQO+UhckNZxeeS9ZIVeIHbsfqwWiAZMQmIvEb7Wti/9MLU0xVwaWOak2THHA==
+
+cloudinary-react@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/cloudinary-react/-/cloudinary-react-1.7.0.tgz#c85f131acc97284453d94363c2219022dc6f1d63"
+  integrity sha512-Q2fQrQ+NwJ1Ei5ISHfWX7cZfC9z71OeOZYQv4MV8sDEDVCml2cvRexvbQ7ksDvqkYd3SCegn5vMDuHp5w3NlCQ==
+  dependencies:
+    cloudinary-core "^2.11.3"
+    prop-types "^15.6.2"
 
 co@^4.6.0:
   version "4.6.0"
@@ -9319,7 +9327,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.4"
 
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
